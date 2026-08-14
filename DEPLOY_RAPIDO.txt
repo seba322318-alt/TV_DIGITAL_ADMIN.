@@ -1,0 +1,13 @@
+TV DIGITAL - PASOS SIGUIENTES
+
+1) Crea en GitHub un repositorio nuevo llamado TV_DIGITAL_ADMIN.
+2) Descomprime este ZIP y sube TODOS los archivos de adentro (no el ZIP cerrado).
+3) Publica el repositorio en un hosting Node.js.
+4) Comando de inicio: node server.js
+5) Configura ADMIN_USER y ADMIN_PASSWORD en las variables de entorno del hosting.
+6) Abre la URL del hosting: esa misma URL + / es tu panel administrador.
+7) Crea un usuario de PRUEBA 24 H y contenido de prueba.
+8) Copia la URL HTTPS del backend.
+9) En tu APK cambia API_BASE_URL a esa URL y recompila en Codemagic.
+
+IMPORTANTE: el archivo data/db.json necesita almacenamiento persistente para no perder usuarios al reiniciar el servidor.

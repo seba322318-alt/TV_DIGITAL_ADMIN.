@@ -1,0 +1,14 @@
+{
+  "name": "tv-digital-admin-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend y panel administrador para TV DIGITAL",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
